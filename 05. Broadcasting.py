@@ -11,5 +11,20 @@ import numpy as np
 
 array1 = np.array([[1,2,3,4]])
 array2 = np.array([[1],[2],[3],[4]])
+print("Shape of both the arrays")
 print(array1.shape)
 print(array2.shape)
+print("\n")
+
+print("Multiplication of both arrays")
+print(array1 * array2)
+
+array3 = np.array([[1,2,3,4,5]])
+array4 = np.array([[1],[2],[3],[4],[5]])
+print("Shape of both the arrays")
+print(array3.shape)
+print(array4.shape)
+print("\n")
+
+print("Multiplication of both arrays")
+print(array3 * array4)
