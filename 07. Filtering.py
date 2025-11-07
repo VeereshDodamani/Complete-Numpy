@@ -8,5 +8,22 @@ teen = ages[ages<18]
 print(teen)
 
 print("Adults")
-adults = ages[(ages>18) & (ages<50)]
+adults = ages[(ages>=18) & (ages<50)]
+print(adults)
+
+print("Seniors")
+seniors = ages[(ages>50)]
+print(seniors)
+
+print("Even")
+even = ages[(ages%2 == 0)]
+print(even)
+
+print("Odds")
+odd = ages[(ages%2 == 1)]
+print(odd)
+print("\n")
+
+print("Adults array")
+adults = np.where(ages>=18,ages,-1)
 print(adults)
